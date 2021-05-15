@@ -199,12 +199,10 @@ class App extends React.Component{
           <div className="bgImg" style={{background:`url(${background})`,backgroundRepeat:"repeat" ,backgroundSize: "cover",backgroundAttachment: "fixed",backgroundPosition: "center",backgroundColor: "#464646"}}>
             {
               (this.state.analyze === false) ? 
-              
               <div className="container division" className="col-sm-5 col-9 col-md-7 col-lg-5 mainp" style={{marginLeft:0,marginTop:0}} >
               <div className="row"  style={{background:"rgb(200, 200,205)",height:"100vh"}}>
                 <div className="col-sm-10 col-md-8 col-lg-8" style={{marginTop:"1em", margin:"auto"}}>
                   <h2 className="mainpage"> Eat &nbsp;<span className="sp">healthy</span><br></br>
-                  
                     Stay &nbsp;<span className="sp">healthy</span>
                   </h2><br></br><br></br>
                   Try this recipe nutrition analyzer for your recipes and start making healthier choices!
