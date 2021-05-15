@@ -10,7 +10,7 @@ Enter each ingredient separated by commas.</h6>
             <textarea onChange={input} id="input" cols="30" rows="7" style={{background:"beige",margin:"auto"}} placeholder="1 cup rice,
 10 oz chickpeas"/>
             <br></br>
-            <button onClick={submit} className= "button2">Analyze</button>&emsp;&emsp;&emsp; <button onClick={clear} className="btn btn-info">New Search</button>
+            <button onClick={submit} className= "button2">Analyze</button>&emsp;&emsp;&emsp; <button onClick={clear} className="btn btn-info">New Recipe</button>
         </div>
         <div>
             {
