@@ -44,7 +44,7 @@ colorp{
   color:#e5ebe6;
 }
 .icon{
-  margin-left: 30%;
+  margin-left: 1%;
   margin-right: 0%;
   padding: 0%;
   display: flex;
@@ -62,13 +62,12 @@ colorp{
 .navb{
   display: flex;
   justify-content: flex-start;
-  font-size: 2.5em;
-  font-family:Poppins;
+  font-size: 2.3em;
   margin-top: 1%;
-  margin-left: 1%;
+  margin-left: 0.3%;
   /* font-family: 'Newsreader', serif; */
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-weight: 500;
+  font-family:'Nunito', serif;
+  font-weight:600;
 }
 .button {
   display: inline-block;

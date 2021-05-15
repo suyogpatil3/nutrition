@@ -59,17 +59,12 @@ class App extends React.Component{
           return data;
         })
         .catch((error) => {
-          console.log(value);
           this.errorMsg(value);
-          console.log(error);
         });
       }))
       .then(dataReceived =>{
         this.setState({dataAPI:dataReceived});
         this.receivedData=this.processData(dataReceived);
-        console.log("received");
-        console.log(this.receivedData);
-
       })
   }
 
@@ -179,11 +174,7 @@ class App extends React.Component{
         nutrition.Uiron=(dataItem.totalNutrients.FE) ? dataItem.totalNutrients.FE.unit:nutrition.Uiron;
         nutrition.Upotassium=(dataItem.totalNutrients.K) ? dataItem.totalNutrients.K.unit:nutrition.Upotassium;
       }
-      console.log(data);
       this.setState({totalNutrition:nutrition});
-      console.log(nutrition);
-      console.log("after analysis");
-      console.log(this.state.totalNutrition);
       return nutrition;
 
     }) 
@@ -195,9 +186,9 @@ class App extends React.Component{
 
     <div className="App">
       <div>
-          <div class="row" >
+          <div className="row" style={{borderBottomColor:"#24b129", borderBottomWidth:"4px",borderBlockStyle:"solid"}} >
          
-                    <img src={icon}class="icon" alt=""/>
+                    <img src={icon}className="icon" alt=""/>
                     <span className="text-center text-success navb" onClick={this.onClear}>Nutrition Analyzer</span>
                     
                     
